@@ -57,7 +57,7 @@ def test_yield():
     def fibonacci():
         num0 = 0
         num1 = 1
-        for i in range(10):
+        for _ in range(10):
             num2 = num0 + num1
             yield num2
             num0 = num1
